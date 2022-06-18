@@ -1,3 +1,6 @@
+/**
+ * Convenience functions for Hacker News API Service.
+ */
 import axios from "axios";
 import Item from '../types/Item';
 import User from '../types/User';

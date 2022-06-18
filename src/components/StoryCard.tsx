@@ -1,10 +1,17 @@
 import React, { useState, useEffect } from "react";
 import Item from "../types/Item";
 
+/**
+ * The expected prop type for StoryCard.
+ */
 export interface StoryCardProps {
   item: Item
 };
 
+/**
+ * Displays a card that summarizes information
+ * regarding a Hacker News story.
+ */
 const StoryCard = (props: StoryCardProps) => {
   const { item } = props;
 

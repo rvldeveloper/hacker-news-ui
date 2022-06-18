@@ -136,7 +136,7 @@
   border-radius: 10px;
 }
 
-.load-wraper{
+.load-wraper {
   position: relative;
   height: 100%;
   width: 100%;
@@ -145,7 +145,8 @@
   overflow: hidden;
   border-radius: 5px;
 }
-.activity{
+
+.activity {
   position: absolute;
   left: -45%;
   height: 100%;

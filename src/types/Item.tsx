@@ -1,5 +1,8 @@
 import User from "./User";
 
+/**
+ * The Item object which represents a story.
+ */
 interface Item {
   id: number,
   title: string,

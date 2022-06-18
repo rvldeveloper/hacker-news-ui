@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 
+/**
+ * A responsive frame that organizes child StoryCard
+ * components.
+ */
 const PageFrame = (props: React.PropsWithChildren) => {
   return (
     <div className="frame">
