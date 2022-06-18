@@ -7,12 +7,7 @@ import PageFrame from './components/PageFrame';
 
 function App() {
   return (
-    <PageFrame>
-      <StoryCard/>
-      <StoryCard/>
-      <StoryCard/>
-      <StoryCard/>
-    </PageFrame>
+    <Top10RandomStories/>
   );
 }
 
